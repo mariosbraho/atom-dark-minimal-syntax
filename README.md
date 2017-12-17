@@ -1,0 +1,41 @@
+# Atom Dark Minimal Syntax
+
+It can be used in combination with [atom-dark-minimal-ui](https://atom.io/themes/atom-dark-minimal-ui).
+
+*Python*
+
+![Python screenshot](https://i.imgur.com/W65Eh94.png)
+
+*JavaScript*
+
+![JavaScript screenshot](https://i.imgur.com/sJCP2sJ.png)
+
+*HTML*
+
+![HTML screenshot](https://i.imgur.com/vngsDdv.png)
+
+*LESS*
+
+![LESS screenshot](https://i.imgur.com/pQLZ8Ed.png)
+
+### Installation
+**<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
+
+```shell
+apm install atom-dark-minimal-syntax
+```
+
+or
+
+**<img src="https://atom.io/favicon.ico" width="14" height="14" /> Via Atom**  
+  1. Open *File > Settings > Install*
+  2. Type `atom-dark-minimal-syntax` and set the filter to *Themes*
+  3. Find and install theme
+
+**Activate theme**
+  1. Open *File > Settings > Themes*
+  2. Select `Atom Dark Minimal` from the *Syntax Theme* drop-down menu
+
+Happy Coding!
+
+<p align="center"><a href="https://github.com/mariosbraho/atom-dark-minimal-syntax/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>

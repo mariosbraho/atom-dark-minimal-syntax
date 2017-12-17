@@ -1,0 +1,102 @@
+.editor {
+    font-family: 'Inconsolata';
+    background-color: @syntax-dark-minimal-background-color;
+    color: @syntax-text-color;
+
+    .line-numbers,
+    .line-numbers > div,
+    .lines,
+    .lines > div > div {
+        background-color: transparent !important;
+    }
+
+    .wrap-guide {
+        background-color: fadeout(@custom-yellow, 90%);
+    }
+
+    .indent-guide {
+        color: fadeout(@custom-yellow, 90%);
+    }
+
+    .invisible-character {
+        color: fadeout(@custom-yellow, 90%);
+    }
+
+    .gutter {
+        color: @syntax-gutter-text-color;
+        z-index: auto;
+
+        .line-number {
+            font-size: 0.8em;
+            line-height: 1.9em;
+            z-index: 2 !important;
+
+            &.cursor-line {
+                background-color: @syntax-gutter-background-color-selected;
+                color: @custom-yellow;
+            }
+
+            &.cursor-line-no-selection {
+                color: @custom-yellow;
+            }
+
+            &.git-line-removed:before {
+                bottom: -3px;
+            }
+
+            &.git-line-removed:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 25px;
+                border-bottom: 1px dotted fade(@syntax-color-removed, 50%);
+                pointer-events: none;
+            }
+
+            .icon-right {
+                color: @custom-yellow;
+            }
+        }
+
+        .line-number:first-child {
+            z-index: -1 !important;
+        }
+    }
+
+    .fold-marker:after,
+    .gutter .line-number.folded,
+    .gutter .line-number:after {
+        color: @light-gray;
+    }
+
+    .invisible {
+        color: @syntax-text-color;
+    }
+
+    .cursor {
+        color: @syntax-cursor-color;
+        border-left-width: 2px;
+    }
+
+    .selection .region {
+        background-color: @syntax-gutter-background-color-selected;
+    }
+
+    .bracket-matcher .region {
+        border-bottom: 2px solid @green;
+    }
+
+    .current-result .region.region.region,
+    .find-result .region.region.region {
+        background-color: @syntax-result-marker-color;
+    }
+
+    .find-result .region.region.region {}
+
+    .current-result .region.region.region {}
+}
+
+.scroll-view {
+    padding-left: 1px;
+}

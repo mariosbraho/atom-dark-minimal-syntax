@@ -1,0 +1,21 @@
+{
+  "author": "Marios Braho",
+  "name": "atom-dark-minimal-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Atom dark minimal syntax theme for Atom dark minimal ui",
+  "keywords": [
+    "dark",
+    "minimal",
+    "syntax"
+  ],
+  "repository": "https://github.com/mariosbraho/atom-dark-minimal-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "inconsolata": "*"
+  }
+}
