@@ -38,6 +38,4 @@ or
 
 Happy Coding!
 
-<p align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mariosbraho/atom-dark-minimal-syntax/blob/master/LICENSE.md)
-</p>
+<p align="center"><a href="https://github.com/mariosbraho/atom-dark-minimal-syntax/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"/></a></p>
