@@ -4,19 +4,19 @@ It can be used in combination with [atom-dark-minimal-ui](https://atom.io/themes
 
 *Python*
 
-![Python screenshot](https://i.imgur.com/W65Eh94.png)
+![Python screenshot](https://i.imgur.com/mYpXoXZ.png)
 
 *JavaScript*
 
-![JavaScript screenshot](https://i.imgur.com/sJCP2sJ.png)
+![JavaScript screenshot](https://i.imgur.com/lpHQHCp.png)
 
 *HTML*
 
-![HTML screenshot](https://i.imgur.com/vngsDdv.png)
+![HTML screenshot](https://i.imgur.com/FzHpYwP.png)
 
 *LESS*
 
-![LESS screenshot](https://i.imgur.com/pQLZ8Ed.png)
+![LESS screenshot](https://i.imgur.com/R4JiCa1.png)
 
 ### Installation
 **<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
