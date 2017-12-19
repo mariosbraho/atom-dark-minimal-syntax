@@ -2,7 +2,7 @@
   "author": "Marios Braho",
   "name": "atom-dark-minimal-syntax",
   "theme": "syntax",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "private": false,
   "description": "Atom dark minimal syntax theme for Atom dark minimal ui",
   "keywords": [
